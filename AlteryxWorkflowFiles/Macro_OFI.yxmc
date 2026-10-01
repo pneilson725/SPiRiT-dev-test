@@ -43,9 +43,6 @@
 Query=`OFI$`</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Count" source="File: C:\Users\pneilson\OneDrive - KPMG\Asset Management Platform - Project SPiRiT\Development\Alteryx\Alaska\DEV\AlteryxWorkflowFiles\Macro Input Data Type Structure\Macro_OFI_Input.xlsx|||`OFI$`" type="Double" />
@@ -293,9 +290,6 @@ A Output</DefaultAnnotationText>
 Query=`Mapping$`</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Row Type" size="255" source="File: C:\Users\pneilson\OneDrive - KPMG\Asset Management Platform - Project SPiRiT\Development\Alteryx\Alaska\DEV\AlteryxWorkflowFiles\Macro Input Data Type Structure\Macro_OFI_Input.xlsx|||`Mapping$`" type="V_String" />
@@ -1750,7 +1744,7 @@ and
                 </Configuration>
                 <Annotation DisplayMode="0">
                   <Name />
-                  <AnnotationText>Data validation to determine the expected printed value</AnnotationText>
+                  <AnnotationText>Data validation to determine the expected printed values</AnnotationText>
                   <DefaultAnnotationText>Data Source Check = IIF([Name] != [Data Source], "Exclude", "Include")
 Investmen...</DefaultAnnotationText>
                   <Left value="False" />
